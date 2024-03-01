@@ -275,3 +275,14 @@ Please create issues if you have any suggestions!
 | [SGRE](http://openaccess.thecvf.com/content/ICCV2023/html/Wang_3D_Human_Mesh_Recovery_with_Sequentially_Global_Rotation_Estimation_ICCV_2023_paper.html)           | ICCV'23     | sequentially global rotation estimation    | -                | -                   | 78.4        | 49.6           | 93.3      | [Code](https://github.com/kennethwdk/SGRE)                                                |
 | [PMCE](http://openaccess.thecvf.com/content/ICCV2023/html/You_Co-Evolution_of_Pose_and_Mesh_for_3D_Human_Body_Estimation_ICCV_2023_paper.html)           | ICCV'23     | pose and mesh co-evolution network         | 53.5             | 37.7                | 69.5        | 46.7           | 84.8      | [Code](https://github.com/kasvii/PMCE)                                                    |
 
+## Citation
+### Please kindly cite the papers if our work is useful and helpful for your research.
+
+    @misc{liu2024deep,
+          title={Deep Learning for 3D Human Pose Estimation and Mesh Recovery: A Survey}, 
+          author={Yang Liu and Changzhen Qiu and Zhiyong Zhang},
+          year={2024},
+          eprint={2402.18844},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+    }
