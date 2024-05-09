@@ -190,7 +190,7 @@ Please create issues if you have any suggestions!
 |---------------------|------------|-------|--------------|-----------------------------|----------------------------------------------------|
 | Human3.6M           | 3D/Mesh    | Video | 3.6M         | multi-view                  | [Website](http://vision.imar.ro/human3.6m/description.php) |
 | 3DPW                | 3D/Mesh    | Video | 51K          | multi-person                | [Website](https://virtualhumans.mpi-inf.mpg.de/3DPW/) |
-| MPI-INF-3DPH        | 2D/3D      | Video | 2K           | in-wild                     | [Website](https://vcai.mpi-inf.mpg.de/3dhp-dataset/) |
+| MPI-INF-3DHP        | 2D/3D      | Video | 2K           | in-wild                     | [Website](https://vcai.mpi-inf.mpg.de/3dhp-dataset/) |
 | HumanEva            | 3D         | Video | 40K          | multi-view                  | [Website](http://humaneva.is.tue.mpg.de/) |
 | CMU-Panoptic        | 3D         | Video | 1.5M         | multi-view/multi-person     | [Website](https://domedb.perception.cs.cmu.edu/) |
 | MuCo-3DHP           | 3D         | Image | 8K           | multi-person/occluded scene | [Website](https://vcai.mpi-inf.mpg.de/projects/SingleShotMultiPerson/) |
