@@ -190,7 +190,7 @@ Please create issues if you have any suggestions!
 |---------------------|------------|-------|--------------|-----------------------------|----------------------------------------------------|
 | Human3.6M           | 3D/Mesh    | Video | 3.6M         | multi-view                  | [Website](http://vision.imar.ro/human3.6m/description.php) |
 | 3DPW                | 3D/Mesh    | Video | 51K          | multi-person                | [Website](https://virtualhumans.mpi-inf.mpg.de/3DPW/) |
-| MPI-INF-3DPH        | 2D/3D      | Video | 2K           | in-wild                     | [Website](https://vcai.mpi-inf.mpg.de/3dhp-dataset/) |
+| MPI-INF-3DHP        | 2D/3D      | Video | 2K           | in-wild                     | [Website](https://vcai.mpi-inf.mpg.de/3dhp-dataset/) |
 | HumanEva            | 3D         | Video | 40K          | multi-view                  | [Website](http://humaneva.is.tue.mpg.de/) |
 | CMU-Panoptic        | 3D         | Video | 1.5M         | multi-view/multi-person     | [Website](https://domedb.perception.cs.cmu.edu/) |
 | MuCo-3DHP           | 3D         | Image | 8K           | multi-person/occluded scene | [Website](https://vcai.mpi-inf.mpg.de/projects/SingleShotMultiPerson/) |
@@ -227,7 +227,7 @@ Please create issues if you have any suggestions!
 | [PoseFormerV2](http://openaccess.thecvf.com/content/CVPR2023/html/Zhao_PoseFormerV2_Exploring_Frequency_Domain_for_Efficient_and_Robust_3D_Human_CVPR_2023_paper.html)   | 2023 | CVPR'23  | frequency domain                   | 45.2   | 35.6    | [Code](https://github.com/QitaoZhao/PoseFormerV2)                                          |
 | [DiffPose](http://openaccess.thecvf.com/content/ICCV2023/html/Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023_paper.html)   | 2023 | ICCV'23  | diffusion models                   | 42.9   | 30.8    | [Code](https://github.com/bastianwandt/DiffPose/)                                              |
 
-## Comparisons of 3D pose estimation methods on MPI-INF-3DPH.
+## Comparisons of 3D pose estimation methods on MPI-INF-3DHP.
 | **Method** | **Year** | **Publication** | **Highlight** | **MPJPE↓** | **PCK↑** | **AUC↑** | **Code** |
 |------------|----------|-----------------|-----------------------|-----------|----------|---------|----------|
 | [HSTFormer](https://arxiv.org/abs/2301.07322)   | 2023 | arXiv'23 | spatial-temporal transformers | 28.3 | 98.0 | 78.6 | [Code](https://github.com/qianxiaoye825/HSTFormer) |
