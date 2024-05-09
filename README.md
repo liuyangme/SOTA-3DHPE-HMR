@@ -227,7 +227,7 @@ Please create issues if you have any suggestions!
 | [PoseFormerV2](http://openaccess.thecvf.com/content/CVPR2023/html/Zhao_PoseFormerV2_Exploring_Frequency_Domain_for_Efficient_and_Robust_3D_Human_CVPR_2023_paper.html)   | 2023 | CVPR'23  | frequency domain                   | 45.2   | 35.6    | [Code](https://github.com/QitaoZhao/PoseFormerV2)                                          |
 | [DiffPose](http://openaccess.thecvf.com/content/ICCV2023/html/Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023_paper.html)   | 2023 | ICCV'23  | diffusion models                   | 42.9   | 30.8    | [Code](https://github.com/bastianwandt/DiffPose/)                                              |
 
-## Comparisons of 3D pose estimation methods on MPI-INF-3DPH.
+## Comparisons of 3D pose estimation methods on MPI-INF-3DHP.
 | **Method** | **Year** | **Publication** | **Highlight** | **MPJPE↓** | **PCK↑** | **AUC↑** | **Code** |
 |------------|----------|-----------------|-----------------------|-----------|----------|---------|----------|
 | [HSTFormer](https://arxiv.org/abs/2301.07322)   | 2023 | arXiv'23 | spatial-temporal transformers | 28.3 | 98.0 | 78.6 | [Code](https://github.com/qianxiaoye825/HSTFormer) |
