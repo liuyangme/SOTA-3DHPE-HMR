@@ -19,8 +19,8 @@ Please create issues if you have any suggestions!
           journal={Neurocomputing},
           pages={128049},
           year={2024},
-          issn = {0925-2312},
-          doi = {https://doi.org/10.1016/j.neucom.2024.128049},
+          issn={0925-2312},
+          doi={https://doi.org/10.1016/j.neucom.2024.128049},
           publisher={Elsevier}
     }
 
