@@ -1,6 +1,8 @@
 
 # Deep Learning for 3D Human Pose Estimation and Mesh Recovery: A Survey
 
+Last updated: 2026-10-11
+
 Authors: Yang Liu, Changzhen Qiu, Zhiyong Zhang*
 
 School of Electronics and Communication Engineering, Sun Yat-sen University, Shenzhen, Guangdong, China
@@ -31,6 +33,9 @@ Please create issues if you have any suggestions!
             - Optical-aware: VI-HC [[paper]](https://ieeexplore.ieee.org/abstract/document/8763991/), Ray3D [[paper]](http://openaccess.thecvf.com/content/CVPR2022/html/Zhan_Ray3D_Ray-Based_3D_Human_Pose_Estimation_for_Monocular_Absolute_3D_CVPR_2022_paper.html)
             - Appropriate feature representation: HEMlets [[paper]](https://ieeexplore.ieee.org/abstract/document/9320561/)
             - Joint aware: JRAN [[paper]](https://ieeexplore.ieee.org/abstract/document/8995784/)
+            - Perspective encoding: PersPose [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Hao_PersPose_3D_Human_Pose_Estimation_with_Perspective_Encoding_and_Perspective_ICCV_2025_paper.html)
+            - Absolute root localization: PoseAnchor [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Kim_PoseAnchor_Robust_Root_Position_Estimation_for_3D_Human_Pose_Estimation_ICCV_2025_paper.html)
+            - Flow matching: FMPose3D [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FMPose3D_monocular_3D_pose_estimation_via_flow_matching_CVPR_2026_paper.html)
         - Solving Body Structure Understanding
             - Limb aware: Wu et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9663053/), Deep grammar network [[paper]](https://ieeexplore.ieee.org/abstract/document/9450016/)
             - Orientation keypoints: Fisch et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9653865/)
@@ -58,17 +63,24 @@ Please create issues if you have any suggestions!
             - Honari et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9921314/)
             - HSTFormer [[paper]](https://arxiv.org/abs/2301.07322)
             - STCFormer [[paper]](http://openaccess.thecvf.com/content/CVPR2023/html/Tang_3D_Human_Pose_Estimation_With_Spatio-Temporal_Criss-Cross_Attention_CVPR_2023_paper.html)
+            - MotionAGFormer [[paper]](https://openaccess.thecvf.com/content/WACV2024/html/Mehraban_MotionAGFormer_Enhancing_3D_Human_Pose_Estimation_With_a_Transformer-GCNFormer_Network_WACV_2024_paper.html)
+            - Skeleton-vision representation: Superman [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Superman_Unifying_Skeleton_and_Vision_for_Human_Motion_Perception_and_CVPR_2026_paper.html)
         - Solving Real-time Problems
             - Temporally sparse sampling: Einfalt et al. [[paper]](https://openaccess.thecvf.com/content/WACV2023/html/Einfalt_Uplift_and_Upsample_Efficient_3D_Human_Pose_Estimation_With_Uplifting_WACV_2023_paper.html)
             - Spatio-temporal sparse sampling: MixSynthFormer [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Sun_MixSynthFormer_A_Transformer_Encoder-like_Structure_with_Mixed_Synthetic_Self-attention_for_ICCV_2023_paper.html)
+            - Structure-aware state space model: SasMamba [[paper]](https://openaccess.thecvf.com/content/WACV2026/papers/Cui_SasMamba_A_Lightweight_Structure-Aware_Stride_State_Space_Model_for_3D_WACV_2026_paper.pdf)
         - Solving Body Structure Understanding
             - Motion loss: Wang et al. [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-58601-0_45)
             - Human-joint affinity: Dc-Net [[paper]](https://ieeexplore.ieee.org/abstract/document/9531423/)
             - Anatomy-aware: Chen et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9347537/)
             - Part aware attention: Xue et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9798770/)
+            - Kinematics and trajectory priors: KTPFormer [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Peng_KTPFormer_Kinematics_and_Trajectory_Prior_Knowledge-Enhanced_Transformer_for_3D_Human_CVPR_2024_paper.html)
+            - Fine-grained prompt-driven diffusion: FinePOSE [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_FinePOSE_Fine-Grained_Prompt-Driven_3D_Human_Pose_Estimation_via_Diffusion_Models_CVPR_2024_paper.html)
+            - Structure-aware and motion-adaptive state space model: SAMA [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_A_Structure-aware_and_Motion-adaptive_Framework_for_3D_Human_Pose_Estimation_ICCV_2025_paper.html)
         - Solving Occlusion Problems
             - Optical-flow consistency constraint: Cheng et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Cheng_Occlusion-Aware_Networks_for_3D_Human_Pose_Estimation_in_Video_ICCV_2019_paper.html)
             - Multi-view: MTF-Transformer [[paper]](https://ieeexplore.ieee.org/abstract/document/9815549/)
+            - Hierarchical autoregressive densification: HiPART [[paper]](https://arxiv.org/abs/2503.23331)
         - Solving Data Lacking
             - Unsupervised learning: Yu et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Yu_Towards_Alleviating_the_Modeling_Ambiguity_of_Unsupervised_Monocular_3D_Human_ICCV_2021_paper.html)
             - Weakly-supervised learning: Chen et al. [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Weakly-Supervised_Discovery_of_Geometry-Aware_Representation_for_3D_Human_Pose_Estimation_CVPR_2019_paper.html)
@@ -88,6 +100,7 @@ Please create issues if you have any suggestions!
         - Solving Data Lacking
             - Single-shot: PandaNet [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Benzine_PandaNet_Anchor-Based_Single-Shot_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
             - Optical-aware: Moon et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Moon_Camera_Distance-Aware_Top-Down_Approach_for_3D_Multi-Person_Pose_Estimation_From_ICCV_2019_paper.html)
+            - Self-supervised multi-view learning: SelfPose3d [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Srivastav_SelfPose3d_Self-Supervised_Multi-Person_Multi-View_3d_Pose_Estimation_CVPR_2024_paper.html)
     - Bottom-up
         -Solving Real-time Problems
             - Fabbri et al. [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Fabbri_Compressed_Volumetric_Heatmaps_for_Multi-Person_3D_Pose_Estimation_CVPR_2020_paper.html)
@@ -101,6 +114,8 @@ Please create issues if you have any suggestions!
     - Others
         - Single Stage
             - Jin et al. [[paper]](http://openaccess.thecvf.com/content/CVPR2022/html/Jin_Single-Stage_Is_Enough_Multi-Person_Absolute_3D_Pose_Estimation_CVPR_2022_paper.html)
+            - Wi-Fi sensing: Person-in-WiFi 3D [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Yan_Person-in-WiFi_3D_End-to-End_Multi-Person_3D_Pose_Estimation_with_Wi-Fi_CVPR_2024_paper.html)
+            - Event-guided video transformer: Lang et al. [[paper]](https://openaccess.thecvf.com/content/WACV2025/html/Lang_Event-Guided_Video_Transformer_for_End-to-End_3D_Human_Pose_Estimation_WACV_2025_paper.html)
         - Top-down & Bottom-up
             - Cheng et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9763389/)
 
@@ -112,12 +127,16 @@ Please create issues if you have any suggestions!
             - Optical flow: DTS-VIBE [[paper]](https://openaccess.thecvf.com/content/WACV2022/html/Li_Deep_Two-Stream_Video_Inference_for_Human_Body_Pose_and_Shape_WACV_2022_paper.html)
             - Silhouettes: LASOR [[paper]](https://ieeexplore.ieee.org/abstract/document/9709705/)
             - Cropped image and bounding box: CLIFF [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-20065-6_34)
+            - Spatial and semantic prompts: PromptHMR [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_PromptHMR_Promptable_Human_Mesh_Recovery_CVPR_2025_paper.html)
+            - Perspective depth estimation: BLADE [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_BLADE_Single-view_Body_Mesh_Estimation_through_Accurate_Depth_Estimation_CVPR_2025_paper.html)
+            - Egocentric fisheye images: Fish2Mesh Transformer [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Shen_Fish2Mesh_Transformer_3D_Human_Mesh_Recovery_from_Egocentric_Vision_ICCV_2025_paper.html)
         - Utilizing Attention Mechanism
             - Part-driven attention: PARE [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Kocabas_PARE_Part_Attention_Regressor_for_3D_Human_Body_Estimation_ICCV_2021_paper.html)
             - Graph attention: Mesh Graphormer [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Lin_Mesh_Graphormer_ICCV_2021_paper.html)
             - Spatio-temporal attention: MPS-Net [[paper]](http://openaccess.thecvf.com/content/CVPR2022/html/Wei_Capturing_Humans_in_Motion_Temporal-Attentive_3D_Human_Pose_and_Shape_CVPR_2022_paper.html), PSVT [[paper]](http://openaccess.thecvf.com/content/CVPR2023/html/Qiu_PSVT_End-to-End_Multi-Person_3D_Pose_and_Shape_Estimation_With_Progressive_CVPR_2023_paper.html)
             - Efficient architecture: FastMETRO [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-19769-7_20), Xue et al. [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3548133)
             - End-to-end structure: METRO [[paper]](http://openaccess.thecvf.com/content/CVPR2021/html/Lin_End-to-End_Human_Pose_and_Mesh_Reconstruction_with_Transformers_CVPR_2021_paper.html)
+            - Synchronous interaction attention: SIAM [[paper]](https://openaccess.thecvf.com/content/WACV2026/html/Ahmad_SIAM_Synchronous_Interaction_Attention_for_Human_Mesh_Recovery_WACV_2026_paper.html)
         - Exploiting Temporal Information
             - Temporally encoding features: Kanazawa et al. [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Kanazawa_Learning_3D_Human_Dynamics_From_Video_CVPR_2019_paper.html)
             - Self-attention temporal: VIBE [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Kocabas_VIBE_Video_Inference_for_Human_Body_Pose_and_Shape_Estimation_CVPR_2020_paper.html)
@@ -125,21 +144,31 @@ Please create issues if you have any suggestions!
             - Multi-level spatial-temporal attention: MAED [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Wan_Encoder-Decoder_With_Multi-Level_Attention_for_3D_Human_Shape_and_Pose_ICCV_2021_paper.html)
             - Temporally embedded live stream: TePose [[paper]](https://arxiv.org/abs/2207.12537)
             - Short-term and long-term temporal correlations: Glot [[paper]](http://openaccess.thecvf.com/content/CVPR2023/html/Shen_Global-to-Local_Modeling_for_Video-Based_3D_Human_Pose_and_Shape_Estimation_CVPR_2023_paper.html)
+            - Contact-aware world-grounded motion: WHAM [[paper]](https://arxiv.org/abs/2312.07531)
+            - Global trajectory and motion: TRAM [[paper]](https://arxiv.org/abs/2403.17346)
+            - Gravity-view coordinates: GVHMR [[paper]](https://arxiv.org/abs/2409.06662)
+            - Diffusion-based motion reconstruction: RoHM [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_RoHM_Robust_Human_Motion_Reconstruction_via_Diffusion_CVPR_2024_paper.pdf)
+            - Online world-grounded recovery: OnlineHMR [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_OnlineHMR_Video-based_Online_World-Grounded_Human_Mesh_Recovery_CVPR_2026_paper.html)
         - Multi-view Methods
             - Confidence-aware majority voting mechanism: Dong et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Dong_Shape-Aware_Multi-Person_Pose_Estimation_From_Multi-View_Images_ICCV_2021_paper.html)
             - Probabilistic-based multi-view: Sengupta et al. [[paper]](http://openaccess.thecvf.com/content/CVPR2021/html/Sengupta_Probabilistic_3D_Human_Shape_and_Pose_Estimation_From_Multiple_Unconstrained_CVPR_2021_paper.html)
             - Dynamic physics-geometry consistency: Huang et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9665884/)
             - Cross-view fusion: Zhuo et al. [[paper]](http://openaccess.thecvf.com/content/CVPR2023/html/Zhuo_Towards_Stable_Human_Pose_Estimation_via_Cross-View_Fusion_and_Foot_CVPR_2023_paper.html)
+            - Joint human-scene-camera reconstruction: HSfM [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Muller_Reconstructing_People_Places_and_Cameras_CVPR_2025_paper.html)
         - Boosting Efficiency
             - Sparse constrained formulation: SCOPE [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Fan_Revitalizing_Optimization_for_3D_Human_Pose_and_Shape_Estimation_A_ICCV_2021_paper.html)
             - Single-stage model: BMP [[paper]](http://openaccess.thecvf.com/content/CVPR2021/html/Zhang_Body_Meshes_as_Points_CVPR_2021_paper.html)
             - Process heatmap inputs: HeatER [[paper]](https://arxiv.org/abs/2205.15448)
             - Removing redundant tokens: TORE [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Dou_TORE_Token_Reduction_for_Efficient_Human_Mesh_Recovery_with_Transformer_ICCV_2023_paper.html)
+            - Scale-adaptive tokens: SAT-HMR [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Su_SAT-HMR_Real-Time_Multi-Person_3D_Mesh_Estimation_via_Scale-Adaptive_Tokens_CVPR_2025_paper.html)
+            - Token and layer merging: FastHMR [[paper]](https://openaccess.thecvf.com/content/WACV2026/html/Mehraban_FastHMR_Accelerating_Human_Mesh_Recovery_via_Token_and_Layer_Merging_WACV_2026_paper.html)
         - Developing Various Representations
             - Texture map: TexturePose [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Pavlakos_TexturePose_Supervising_Human_Mesh_Estimation_With_Texture_Consistency_ICCV_2019_paper.html)
             - UV map: Zhang et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9279291/), DecoMR [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Zeng_3D_Human_Mesh_Regression_With_Dense_Correspondence_CVPR_2020_paper.html), Zhang et al. [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_Object-Occluded_Human_Shape_and_Pose_Estimation_From_a_Single_Color_CVPR_2020_paper.html)
             - Heat map: Sun et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Sun_Monocular_One-Stage_Regression_of_Multiple_3D_People_ICCV_2021_paper.html), 3DCrowdNet [[paper]](http://openaccess.thecvf.com/content/CVPR2022/html/Choi_Learning_To_Estimate_Robust_3D_Human_Mesh_From_In-the-Wild_Crowded_CVPR_2022_paper.html)
             - Uniform representation: DSTFormer [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Zhu_MotionBERT_A_Unified_Perspective_on_Learning_Human_Motion_Representations_ICCV_2023_paper.html)
+            - Tokenized pose representation: TokenHMR [[paper]](https://arxiv.org/abs/2404.16752)
+            - Unified scene and human representation: UniSH [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Li_UniSH_Unifying_Scene_and_Human_Reconstruction_in_a_Feed-Forward_Pass_CVPR_2026_paper.html)
         - Utilizing Structural Information
             - Part-based: holopose [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Guler_HoloPose_Holistic_3D_Human_Reconstruction_In-The-Wild_CVPR_2019_paper.html)
             - Skeleton disentangling: Sun et al. [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Sun_Human_Mesh_Recovery_From_Monocular_Images_via_a_Skeleton-Disentangled_Representation_ICCV_2019_paper.html)
@@ -147,6 +176,10 @@ Please create issues if you have any suggestions!
             - Uncertainty-aware: Lee et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Lee_Uncertainty-Aware_Human_Mesh_Recovery_From_Video_by_Learning_Part-Based_3D_ICCV_2021_paper.html)
             - Kinematic tree structure: Sengupta et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2021/html/Sengupta_Hierarchical_Kinematic_Probability_Distributions_for_3D_Human_Shape_and_Pose_ICCV_2021_paper.html)
             - Kinematic chains: SGRE [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Wang_3D_Human_Mesh_Recovery_with_Sequentially_Global_Rotation_Estimation_ICCV_2023_paper.html)
+            - Biomechanically accurate skeleton: HSMR [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Xia_Reconstructing_Humans_with_a_Biomechanically_Accurate_Skeleton_CVPR_2025_paper.html)
+            - Amputated joint awareness: AJAHR [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Cho_AJAHR_Amputated_Joint_Aware_3D_Human_Mesh_Recovery_ICCV_2025_paper.html)
+            - Residual-limb awareness: ResiHMR [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Ying_ResiHMR_Residual-Limb_Aware_Single-Image_3D_Human_Mesh_Recovery_for_Individuals_CVPR_2026_paper.html)
+            - Explicit human-environment interactions: InterMesh (arXiv'26) [[paper]](https://arxiv.org/abs/2605.04554)
         - Choosing Appropriate Learning Strategies
             - Self-improving: SPIN [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Kolotouros_Learning_to_Reconstruct_3D_Human_Pose_and_Shape_via_Model-Fitting_ICCV_2019_paper.html), ReFit [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Wang_ReFit_Recurrent_Fitting_Network_for_3D_Human_Recovery_ICCV_2023_paper.html), You et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/You_Co-Evolution_of_Pose_and_Mesh_for_3D_Human_Body_Estimation_ICCV_2023_paper.html)
             - Novel losses: Zanfir et al. [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-58539-6_28), Jiang et al. [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Jiang_Coherent_Reconstruction_of_Multiple_Humans_From_a_Single_Image_CVPR_2020_paper.html)
@@ -155,6 +188,8 @@ Please create issues if you have any suggestions!
             - Single-shot: Pose2UV [[paper]](https://ieeexplore.ieee.org/abstract/document/9817035/)
             - Contrastive learning: JOTR [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Li_JOTR_3D_Joint_Contrastive_Learning_with_Transformers_for_Occluded_Human_ICCV_2023_paper.html)
             - Domain adaptation: Nam et al. [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Nam_Cyclic_Test-Time_Adaptation_on_Monocular_Video_for_3D_Human_Mesh_ICCV_2023_paper.html)
+            - VLM-guided group preference alignment: Shen et al. [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Shen_VLM-Guided_Group_Preference_Alignment_for_Diffusion-based_Human_Mesh_Recovery_CVPR_2026_paper.html)
+            - Self-supervised biomechanical distillation: Biomechanical 3D Body (ECCV Workshop'26) [[paper]](https://arxiv.org/abs/2608.29928)
     - Detailed
         - With Clothes
             - Alldieck et al. [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Alldieck_Learning_to_Reconstruct_People_in_Clothing_From_a_Single_RGB_CVPR_2019_paper.html)
@@ -175,6 +210,10 @@ Please create issues if you have any suggestions!
             - PyMAF [[paper]](https://ieeexplore.ieee.org/abstract/document/10113183/)
             - OSX [[paper]](http://openaccess.thecvf.com/content/CVPR2023/html/Lin_One-Stage_3D_Whole-Body_Mesh_Recovery_With_Component_Aware_Transformer_CVPR_2023_paper.html)
             - HybrIK-X [[paper]](https://arxiv.org/abs/2304.05690)
+            - Single-shot multi-person recovery: Multi-HMR [[paper]](https://arxiv.org/abs/2402.14654)
+            - Data and model scaling: SMPLest-X [[paper]](https://arxiv.org/abs/2501.09782)
+            - Promptable full-body recovery: SAM 3D Body [[paper]](https://arxiv.org/abs/2602.15989)
+            - Conditional hands modulation: Hand4Whole++ [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Moon_Enhancing_Hands_in_3D_Whole-Body_Pose_Estimation_with_Conditional_Hands_CVPR_2026_paper.html)
 - Template-free
     - Regression-based
         - FACSIMILE [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Smith_FACSIMILE_Fast_and_Accurate_Scans_From_an_Image_in_Less_ICCV_2019_paper.html), PeeledHuman [[paper]](https://ieeexplore.ieee.org/abstract/document/9320367/), GTA [[paper]](https://arxiv.org/abs/2309.13524), NSF [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Xue_NSF_Neural_Surface_Fields_for_Human_Modeling_from_Monocular_Depth_ICCV_2023_paper.html)
@@ -194,10 +233,14 @@ Please create issues if you have any suggestions!
         - HMD [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhu_Detailed_Human_Shape_Estimation_From_a_Single_Image_by_Hierarchical_CVPR_2019_paper.html), IP-Net [[paper]](https://link.springer.com/chapter/10.1007/978-3-030-58536-5_19), PaMIR [[paper]](https://ieeexplore.ieee.org/abstract/document/9321139/), Zhu et al. [[paper]](https://ieeexplore.ieee.org/abstract/document/9507281/), ICON [[paper]](https://ieeexplore.ieee.org/abstract/document/9878790/), ECON [[paper]](http://openaccess.thecvf.com/content/CVPR2023/html/Xiu_ECON_Explicit_Clothed_Humans_Optimized_via_Normal_Integration_CVPR_2023_paper.html), DELTA [[paper]](https://arxiv.org/abs/2309.06441), GETAvatar [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Zhang_GETAvatar_Generative_Textured_Meshes_for_Animatable_Human_Avatars_ICCV_2023_paper.html)
     - Diffusion + Explicit
         - DINAR [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Svitov_DINAR_Diffusion_Inpainting_of_Neural_Textures_for_One-Shot_Human_Avatars_ICCV_2023_paper.html)
+        - Image-conditioned diffusion: SiTH [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Ho_SiTH_Single-view_Textured_Human_Reconstruction_with_Image-Conditioned_Diffusion_CVPR_2024_paper.html)
+        - Cross-scale multiview diffusion and remeshing: PSHuman [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_PSHuman_Photorealistic_Single-image_3D_Human_Reconstruction_using_Cross-Scale_Multiview_Diffusion_CVPR_2025_paper.pdf)
     - NeRF + Explicit
         - TransHuman [[paper]](http://openaccess.thecvf.com/content/ICCV2023/html/Pan_TransHuman_A_Transformer-based_Human_Representation_for_Generalizable_Neural_Human_Rendering_ICCV_2023_paper.html)
     - Gaussian Splatting + Explicit
         - Animatable 3D Gaussian [[paper]](https://arxiv.org/abs/2311.16482)
+        - Articulated Gaussian splatting: GauHuman [[paper]](https://arxiv.org/abs/2312.02973)
+        - Joint pose and avatar optimization: HumanSplatHMR (arXiv'26) [[paper]](https://arxiv.org/abs/2605.02784)
 
 ## The overview of the mainstream datasets.
 | Dataset             | Type       | Data  | Total frames | Feature                     | Download link                                      |
@@ -240,6 +283,17 @@ Please create issues if you have any suggestions!
 | [HSTFormer](https://arxiv.org/abs/2301.07322)    | 2023 | arXiv'23   | spatial-temporal transformers      | 42.7   | 33.7    | [Code](https://github.com/qianxiaoye825/HSTFormer)                                         |
 | [PoseFormerV2](http://openaccess.thecvf.com/content/CVPR2023/html/Zhao_PoseFormerV2_Exploring_Frequency_Domain_for_Efficient_and_Robust_3D_Human_CVPR_2023_paper.html)   | 2023 | CVPR'23  | frequency domain                   | 45.2   | 35.6    | [Code](https://github.com/QitaoZhao/PoseFormerV2)                                          |
 | [DiffPose](http://openaccess.thecvf.com/content/ICCV2023/html/Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023_paper.html)   | 2023 | ICCV'23  | diffusion models                   | 42.9   | 30.8    | [Code](https://github.com/bastianwandt/DiffPose/)                                              |
+| [PersPose](https://openaccess.thecvf.com/content/ICCV2025/html/Hao_PersPose_3D_Human_Pose_Estimation_with_Perspective_Encoding_and_Perspective_ICCV_2025_paper.html) | 2025 | ICCV'25 | perspective encoding; RGB + intrinsics; 14 joints | 43.0 | 28.3 | [Code](https://github.com/KenAdamsJoseph/PersPose) |
+| [PoseAnchor](https://openaccess.thecvf.com/content/ICCV2025/html/Kim_PoseAnchor_Robust_Root_Position_Estimation_for_3D_Human_Pose_Estimation_ICCV_2025_paper.html) | 2025 | ICCV'25 | root localization; T=243; root-relative errors | 40.3 | 32.1 | [Code](https://github.com/junheeeeeee/PoseAnchor) |
+| [FMPose3D](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FMPose3D_monocular_3D_pose_estimation_via_flow_matching_CVPR_2026_paper.html) | 2026 | CVPR'26 | flow matching; CPN; N=40; single frame | 47.3 | 38.3 | [Code](https://github.com/AdaptiveMotorControlLab/FMPose3D) |
+| [MotionAGFormer-L](https://openaccess.thecvf.com/content/WACV2024/html/Mehraban_MotionAGFormer_Enhancing_3D_Human_Pose_Estimation_With_a_Transformer-GCNFormer_Network_WACV_2024_paper.html) | 2024 | WACV'24 | Transformer-GCNFormer; SH; T=243 | 38.4 | 32.5 | [Code](https://github.com/TaatiTeam/MotionAGFormer) |
+| [Superman](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Superman_Unifying_Skeleton_and_Vision_for_Human_Motion_Perception_and_CVPR_2026_paper.html) | 2026 | CVPR'26 | skeleton-vision pretraining; RGB; T=16; w/ MAFT | 51.61 | - | [Code](https://github.com/BradleyWang0416/Superman) |
+| [SasMamba-L](https://openaccess.thecvf.com/content/WACV2026/papers/Cui_SasMamba_A_Lightweight_Structure-Aware_Stride_State_Space_Model_for_3D_WACV_2026_paper.pdf) | 2026 | WACV'26 | structure-aware state space model; SH; T=243 | 39.77 | 33.61 | [Code](https://github.com/HuCui2022/sasmamba_pose_estimation) |
+| [KTPFormer](https://openaccess.thecvf.com/content/CVPR2024/html/Peng_KTPFormer_Kinematics_and_Trajectory_Prior_Knowledge-Enhanced_Transformer_for_3D_Human_CVPR_2024_paper.html) | 2024 | CVPR'24 | kinematics and trajectory priors; CPN; T=243 | 40.1 | 31.9 | [Code](https://github.com/JihuaPeng/KTPFormer) |
+| [FinePOSE](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_FinePOSE_Fine-Grained_Prompt-Driven_3D_Human_Pose_Estimation_via_Diffusion_Models_CVPR_2024_paper.html) | 2024 | CVPR'24 | prompt-driven diffusion; CPN; T=243; H=20; M=10 | 31.9 | 25.0 | [Code](https://github.com/PKU-ICST-MIPL/FinePOSE_CVPR2024) |
+| [SAMA-L](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_A_Structure-aware_and_Motion-adaptive_Framework_for_3D_Human_Pose_Estimation_ICCV_2025_paper.html) | 2025 | ICCV'25 | structure-aware motion-adaptive SSM; SH; T=351 | 36.5 | 31.0 | - |
+| [HiPART](https://arxiv.org/abs/2503.23331) | 2025 | CVPR'25 | hierarchical autoregressive densification; CPN; single frame | 42.0 | - | - |
+| [EVT (Lang et al.)](https://openaccess.thecvf.com/content/WACV2025/html/Lang_Event-Guided_Video_Transformer_for_End-to-End_3D_Human_Pose_Estimation_WACV_2025_paper.html) | 2025 | WACV'25 | event-guided video transformer; RGB + events; T=7 | 37.8 | 28.3 | - |
 
 ## Comparisons of 3D pose estimation methods on MPI-INF-3DHP.
 | **Method** | **Year** | **Publication** | **Highlight** | **MPJPE↓** | **PCK↑** | **AUC↑** | **Code** |
@@ -256,6 +310,15 @@ Please create issues if you have any suggestions!
 | [AdaptPose](http://openaccess.thecvf.com/content/CVPR2022/html/Gholami_AdaptPose_Cross-Dataset_Adaptation_for_3D_Human_Pose_Estimation_by_Learnable_CVPR_2022_paper.html)   | 2022 | CVPR'22 | cross datasets | 77.2 | 88.4 | 54.2 | [Code](https://github.com/mgholamikn/AdaptPose) |
 | [3D-HPE-PAA](https://ieeexplore.ieee.org/abstract/document/9798770/)   | 2022 | TIP'22 | part aware attention | 69.4 | 90.3 | 57.8 | [Code](https://github.com/thuxyz19/3D-HPE-PAA) |
 | [Elepose](http://openaccess.thecvf.com/content/CVPR2022/html/Wandt_ElePose_Unsupervised_3D_Human_Pose_Estimation_by_Predicting_Camera_Elevation_CVPR_2022_paper.html)   | 2022 | CVPR'22 | unsupervised | 54.0 | 86.0 | 50.1 | [Code](https://github.com/bastianwandt/ElePose) |
+| [PersPose](https://openaccess.thecvf.com/content/ICCV2025/html/Hao_PersPose_3D_Human_Pose_Estimation_with_Perspective_Encoding_and_Perspective_ICCV_2025_paper.html) | 2025 | ICCV'25 | perspective encoding; RGB + intrinsics | 72.1 | 94.0 | 55.2 | [Code](https://github.com/KenAdamsJoseph/PersPose) |
+| [PoseAnchor](https://openaccess.thecvf.com/content/ICCV2025/html/Kim_PoseAnchor_Robust_Root_Position_Estimation_for_3D_Human_Pose_Estimation_ICCV_2025_paper.html) | 2025 | ICCV'25 | root localization; T=81; root-relative errors | 17.2 | 99.3 | 88.1 | [Code](https://github.com/junheeeeeee/PoseAnchor) |
+| [FMPose3D](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FMPose3D_monocular_3D_pose_estimation_via_flow_matching_CVPR_2026_paper.html) | 2026 | CVPR'26 | cross-dataset: trained on H36M only; GT 2D; N=20 | - | 86.4 | 54.6 | [Code](https://github.com/AdaptiveMotorControlLab/FMPose3D) |
+| [MotionAGFormer-L](https://openaccess.thecvf.com/content/WACV2024/html/Mehraban_MotionAGFormer_Enhancing_3D_Human_Pose_Estimation_With_a_Transformer-GCNFormer_Network_WACV_2024_paper.html) | 2024 | WACV'24 | Transformer-GCNFormer; GT 2D; T=81 | 16.2 | 98.2 | 85.3 | [Code](https://github.com/TaatiTeam/MotionAGFormer) |
+| [SasMamba-B](https://openaccess.thecvf.com/content/WACV2026/papers/Cui_SasMamba_A_Lightweight_Structure-Aware_Stride_State_Space_Model_for_3D_WACV_2026_paper.pdf) | 2026 | WACV'26 | structure-aware state space model; GT 2D; T=81 | 17.97 | - | - | [Code](https://github.com/HuCui2022/sasmamba_pose_estimation) |
+| [KTPFormer](https://openaccess.thecvf.com/content/CVPR2024/html/Peng_KTPFormer_Kinematics_and_Trajectory_Prior_Knowledge-Enhanced_Transformer_for_3D_Human_CVPR_2024_paper.html) | 2024 | CVPR'24 | kinematics and trajectory priors; GT 2D; T=81 | 16.7 | 98.9 | 85.9 | [Code](https://github.com/JihuaPeng/KTPFormer) |
+| [FinePOSE](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_FinePOSE_Fine-Grained_Prompt-Driven_3D_Human_Pose_Estimation_via_Diffusion_Models_CVPR_2024_paper.html) | 2024 | CVPR'24 | prompt-driven diffusion; GT 2D; T=243 | 26.2 | 98.9 | 80.0 | [Code](https://github.com/PKU-ICST-MIPL/FinePOSE_CVPR2024) |
+| [SAMA-L](https://openaccess.thecvf.com/content/ICCV2025/html/Lu_A_Structure-aware_and_Motion-adaptive_Framework_for_3D_Human_Pose_Estimation_ICCV_2025_paper.html) | 2025 | ICCV'25 | structure-aware motion-adaptive SSM; GT 2D; T=81 | 14.4 | 99.0 | 88.3 | - |
+| [EVT (Lang et al.)](https://openaccess.thecvf.com/content/WACV2025/html/Lang_Event-Guided_Video_Transformer_for_End-to-End_3D_Human_Pose_Estimation_WACV_2025_paper.html) | 2025 | WACV'25 | event-guided video transformer; RGB + events; T=9 | 17.9 | 98.5 | 84.7 | - |
 
 ## Comparisons of human mesh recovery methods on Human3.6M and 3DPW.
 | Method         | Publication | Highlight                          | Human3.6M MPJPE↓ | Human3.6M PA-MPJPE↓ | 3DPW MPJPE↓ | 3DPW PA-MPJPE↓ | 3DPW PVE↓ | Code                                                                                |
@@ -288,6 +351,26 @@ Please create issues if you have any suggestions!
 | [ImpHMR](http://openaccess.thecvf.com/content/CVPR2023/html/Cho_Implicit_3D_Human_Mesh_Recovery_Using_Consistency_With_Pose_and_CVPR_2023_paper.html)         | CVPR'23     | implicitly imagine person in 3D space      | -                | -                   | 74.3        | 45.4           | 87.1      | -                                                                                         |
 | [SGRE](http://openaccess.thecvf.com/content/ICCV2023/html/Wang_3D_Human_Mesh_Recovery_with_Sequentially_Global_Rotation_Estimation_ICCV_2023_paper.html)           | ICCV'23     | sequentially global rotation estimation    | -                | -                   | 78.4        | 49.6           | 93.3      | [Code](https://github.com/kennethwdk/SGRE)                                                |
 | [PMCE](http://openaccess.thecvf.com/content/ICCV2023/html/You_Co-Evolution_of_Pose_and_Mesh_for_3D_Human_Body_Estimation_ICCV_2023_paper.html)           | ICCV'23     | pose and mesh co-evolution network         | 53.5             | 37.7                | 69.5        | 46.7           | 84.8      | [Code](https://github.com/kasvii/PMCE)                                                    |
+| [PersPose](https://openaccess.thecvf.com/content/ICCV2025/html/Hao_PersPose_3D_Human_Pose_Estimation_with_Perspective_Encoding_and_Perspective_ICCV_2025_paper.html) | ICCV'25 | perspective encoding; RGB + intrinsics; 14 joints | 43.0 | 28.3 | 60.1 | 39.1 | 72.4 | [Code](https://github.com/KenAdamsJoseph/PersPose) |
+| [PromptHMR (image)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_PromptHMR_Promptable_Human_Mesh_Recovery_CVPR_2025_paper.html) | CVPR'25 | spatial and semantic prompts; single image | - | - | 58.7 | 36.6 | 69.4 | [Code](https://github.com/yufu-wang/PromptHMR) |
+| [PromptHMR (video)](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_PromptHMR_Promptable_Human_Mesh_Recovery_CVPR_2025_paper.html) | CVPR'25 | spatial and semantic prompts; temporal refinement | - | - | 56.9 | 35.5 | 67.3 | [Code](https://github.com/yufu-wang/PromptHMR) |
+| [SIAM](https://openaccess.thecvf.com/content/WACV2026/html/Ahmad_SIAM_Synchronous_Interaction_Attention_for_Human_Mesh_Recovery_WACV_2026_paper.html) | WACV'26 | synchronous interaction attention; HRNet-W48; Table 3 | - | - | 61.0 | 38.6 | 72.3 | - |
+| [WHAM](https://arxiv.org/abs/2312.07531) | CVPR'24 | contact-aware world-grounded motion; ViT | - | - | 57.8 | 35.9 | 68.7 | [Code](https://github.com/yohanshin/WHAM) |
+| [TRAM (VIMO)](https://arxiv.org/abs/2403.17346) | ECCV'24 | video motion module; camera-coordinate mesh evaluation | - | - | 59.3 | 35.6 | 69.6 | [Code](https://github.com/yufu-wang/tram) |
+| [GVHMR](https://arxiv.org/abs/2409.06662) | SIGGRAPH Asia'24 | gravity-view motion recovery; 14-joint 3DPW evaluation | - | - | 55.6 | 36.2 | 67.2 | [Code](https://github.com/zju3dv/GVHMR) |
+| [OnlineHMR](https://openaccess.thecvf.com/content/CVPR2026/html/Zhao_OnlineHMR_Video-based_Online_World-Grounded_Human_Mesh_Recovery_CVPR_2026_paper.html) | CVPR'26 | online video recovery; camera-coordinate evaluation | - | - | 69.9 | 43.7 | 83.7 | [Code](https://github.com/Tsukasane/Video-OnlineHMR) |
+| [SAT-HMR](https://openaccess.thecvf.com/content/CVPR2025/html/Su_SAT-HMR_Real-Time_Multi-Person_3D_Mesh_Estimation_via_Scale-Adaptive_Tokens_CVPR_2025_paper.html) | CVPR'25 | scale-adaptive tokens; 644 resolution; 3DPW fine-tuning | - | - | - | 41.6 | 73.7 | [Code](https://github.com/ChiSu001/SAT-HMR) |
+| [FastHMR](https://openaccess.thecvf.com/content/WACV2026/html/Mehraban_FastHMR_Accelerating_Human_Mesh_Recovery_via_Token_and_Layer_Merging_WACV_2026_paper.html) | WACV'26 | token and layer merging; CameraHMR-M1 | - | - | 62.2 | 39.1 | 73.9 | [Code](https://github.com/TaatiTeam/FastHMR) |
+| [TokenHMR](https://arxiv.org/abs/2404.16752) | CVPR'24 | tokenized pose; SD + ITW + BL training | - | - | 71.0 | 44.3 | 84.6 | [Code](https://github.com/saidwivedi/TokenHMR) |
+| [HSMR](https://openaccess.thecvf.com/content/CVPR2025/html/Xia_Reconstructing_Humans_with_a_Biomechanically_Accurate_Skeleton_CVPR_2025_paper.html) | CVPR'25 | biomechanically accurate skeleton; no 3DPW training | 50.4 | 32.9 | 81.5 | 54.8 | - | [Code](https://github.com/IsshikiHugh/HSMR) |
+| [AJAHR](https://openaccess.thecvf.com/content/ICCV2025/html/Cho_AJAHR_Amputated_Joint_Aware_3D_Human_Mesh_Recovery_ICCV_2025_paper.html) | ICCV'25 | amputated joint awareness; non-amputee 3DPW evaluation | - | - | 71.77 | 44.94 | 95.26 | [Code](https://github.com/chojinie/AJAHR_official) |
+| [InterMesh](https://arxiv.org/abs/2605.04554) | arXiv'26 | explicit human-environment interactions | - | - | 60.7 | 39.8 | 71.0 | [Code](https://github.com/Kelly510/InterMesh) |
+| [GPA-HMR (Shen et al.)](https://openaccess.thecvf.com/content/CVPR2026/html/Shen_VLM-Guided_Group_Preference_Alignment_for_Diffusion-based_Human_Mesh_Recovery_CVPR_2026_paper.html) | CVPR'26 | VLM-guided preference alignment; best-of-100 evaluation | 35.0 | 23.9 | 52.5 | 31.5 | 60.9 | [Code](https://github.com/shenwenhao01/GPA-HMR) |
+| [Multi-HMR](https://arxiv.org/abs/2402.14654) | ECCV'24 | single-shot multi-person recovery; ViT-L/896; fine-tuned | - | - | 61.4 | 41.7 | 75.9 | [Code](https://github.com/naver/multi-hmr) |
+| [SMPLest-X-H40+](https://arxiv.org/abs/2501.09782) | TPAMI'26 | whole-body scaling; H40+ variant | - | - | 74.8 | - | - | [Code](https://github.com/MotrixLab/SMPLest-X) |
+| [SAM 3D Body](https://arxiv.org/abs/2602.15989) | CVPR'26 | promptable full-body recovery; 3DB-H; 14-joint 3DPW | - | - | 54.8 | 33.2 | 64.1 | [Code](https://github.com/facebookresearch/sam-3d-body) |
+| [HumanSplatHMR](https://arxiv.org/abs/2605.02784) | arXiv'26 | test-time pose-avatar optimization; selected single-person sequences | 80.53 | 41.13 | 72.63 | 55.10 | - | - |
+| [BLADE](https://openaccess.thecvf.com/content/CVPR2025/html/Wang_BLADE_Single-view_Body_Mesh_Estimation_through_Accurate_Depth_Estimation_CVPR_2025_paper.html) | CVPR'25 | perspective depth estimation; no 3DPW training | 55.1 | 40.5 | 75.1 | 45.7 | 89.5 | [Code](https://github.com/NVlabs/blade) |
 
 
 
